@@ -24,6 +24,7 @@ def t4(age):
     print(age, 11)
 
 
+# 装饰器指定参数
 def t5(age):
     def t51(func):
         def wrapper(*args, **kwargs):

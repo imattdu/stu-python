@@ -9,6 +9,6 @@ if __name__ == '__main__':
             cnt += 1
     print(cnt)
 
-# [0, 1]
+# [0, 1)
 # print(random.random())
 #  print(random.randint(1, 100))
