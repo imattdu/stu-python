@@ -21,7 +21,7 @@ def cmp(i, j):
 
 
 def t1():
-    us = [User('a', 1), User('b', 99), User('a', 88)]
+    us = [User('a', 1), User('b', -99), User('a', 88)]
     r = sorted(us, key=cmp_to_key(cmp))
     for i in r:
         i.__str__()
@@ -29,6 +29,6 @@ def t1():
 
 if __name__ == '__main__':
     l1 = (('zz', 1), ('b', 99), ('c', -3))
-    sorted(l1, reverse=False, key=lambda x: x[1])
+    l1 = sorted(l1, reverse=False, key=lambda x: x[1])
     print(l1)
     t1()
